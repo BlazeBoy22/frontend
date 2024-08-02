@@ -8,7 +8,9 @@ st.markdown(
     <style>
     .stApp {
         background-color: white;
-        color: black;
+       
+            # background-image: linear-gradient(38deg, rgba(35, 28, 118, 0.7) 37%, rgba(200, 80, 192, 0.5) 26%, rgba(41, 86, 162, 0.6) 20%);
+        
     }
     .stFileUploader {
         background-color: black;
@@ -16,22 +18,33 @@ st.markdown(
     }
     .eczjsme18 .eczjsme11 {
             background-color: #03864d;
-            color: white;
+            color: black;
         }
     .eczjsme15 {
-            color: white;
+            color: black;
             font-size: 1.3rem;
+        }
+        .eczjsme18 .eczjsme11 {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: rgba(238,174,202,0.7);/* Green with transparency */
+            background-image: linear-gradient(38deg, rgba(35, 28, 118, 0.7) 37%, rgba(200, 80, 192, 0.5) 26%, rgba(41, 86, 162, 0.6) 20%);
         }
     .stDataFrame {
         color: black;
         background-color: white;
     }
     .stButton > button {
-        background-color: green;
-        color: black;
-        width:fit-content;
-        font-size: 2rem; /* Adjust font size as needed */
-        font-weight: 400; /* Adjust font weight as needed */
+           background: cyan;
+           width:2rem;
+            color: black;
+            width: fit-content;
+            font-size: 3rem; /* Adjust font size as needed */
+            font-weight: 800;
+
+            
+    }
+    .ef3psqc12{
+    font-size:1.5rem;
     }
 
     .stTitle {

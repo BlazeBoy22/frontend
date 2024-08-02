@@ -9,8 +9,9 @@ def main():
         """
         <style>
         .stApp {
-            background-color: white;
+            background-color: white !important;
             color: black;
+           
         }
         .css-164nlkn {
             background-color: white !important; /* Main header area */
@@ -21,21 +22,55 @@ def main():
         .css-18e3th9 {
             background-color: white !important; /* Sidebar */
         }
-        .eczjsme18 .eczjsme11 {
-            background-color: #03864d;
-            color: white;
+        .eczjsme18{
+            #  background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(118,174,202,0.4) 40%, rgba(148,187,233,0.1) 70%);;
+            color:black;
+        }
+        .eczjsme13{
+        color:white;
+        }
+        .eczjsme14{
+       color:white;
+        }
+#         .eczjsme18 .eczjsme11 {
+#         font-family: "Lucida Console", "Courier New", monospace;
+# #            background: rgb(238,174,202);
+# # background: radial-gradient(circle, rgba(238,174,202,0.8) 0%, rgba(148,187,233,0.6) 90%);
+# #             color: black !important;
+# #  background: rgba(0, 128, 0, 0.5);
+# # background: #B71375;
+# # opacity:50;
+# #              background: rgb(238,174,202);
+# # background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+# background-color: #36BA98;
+
+# background-image: linear-gradient(38deg, #4158D0 4%, #C850C0 26%, #36BA98 20%);
+
+#         }
+.eczjsme18 .eczjsme11 {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: rgba(238,174,202,0.7);/* Green with transparency */
+            background-image: linear-gradient(38deg, rgba(35, 28, 118, 0.7) 37%, rgba(200, 80, 192, 0.5) 26%, rgba(41, 86, 162, 0.6) 20%);
         }
         .eczjsme15 {
-            color: white;
+            color: black;
             font-size: 1.3rem;
         }
+        .eczjsme14{
+        color:black;
+        }
+        
         .stApp {
-            background-color: #B4E380 !important;
-            background-image: url('https://cdn.dribbble.com/users/20368/screenshots/4012238/data_scene.gif');
+            # background-color: #59D5E0 !important;
+            background-image: url('https://media.licdn.com/dms/image/D4D12AQEDzlOGfiudRg/article-cover_image-shrink_600_2000/0/1692353679370?e=2147483647&v=beta&t=02i3ENOOcT5iFray7urZUm8EidUhH5jCXLb0HnDBlQ4');
             # background-size: cover;
             background-size:contain;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            font-family: "Lucida Console", "Courier New", monospace;
+            
         }
 
         @keyframes scaleAndGrayscale {
@@ -59,12 +94,12 @@ def main():
         body {
             display:flex;
             justify-content:end;
-            background-color: #B4E380 !important;
-            background-image: url('https://png.pngtree.com/background/20220725/original/pngtree-advertising-poster-data-analysis-cartoon-flat-picture-image_1774648.jpg');
+            background-color: #59D5E0 !important;
+            background-image: url('https://media.licdn.com/dms/image/C4D12AQEeKAn9dPLbhw/article-cover_image-shrink_600_2000/0/1616667695311?e=2147483647&v=beta&t=KTbbDeJ4Wwf6KFCPZ0Q1Et1jbaD7d81SHbTx-NVs3QA');
         }
 
         # .ea3mdgi8 {
-        #     background-image: url('https://png.pngtree.com/background/20220725/original/pngtree-advertising-poster-data-analysis-cartoon-flat-picture-image_1774648.jpg');
+        #     background-image: url('https://media.licdn.com/dms/image/C4D12AQEeKAn9dPLbhw/article-cover_image-shrink_600_2000/0/1616667695311?e=2147483647&v=beta&t=KTbbDeJ4Wwf6KFCPZ0Q1Et1jbaD7d81SHbTx-NVs3QA');
         #     background-repeat: no-repeat;
         #     background-attachment: fixed;
         #     background-size: 400px 600px;
@@ -94,10 +129,12 @@ def main():
             position:absolute;
             right:0px;
             margin-left:100px;
-            background-color:#03864d;
+            # background-color:#03864d;
+            background-color:rgba(35, 28, 118, 0.7);
             border:1px solid black;
             border-radius:40px 40px ;  
             color:white;
+            font-family: "Lucida Console", "Courier New", monospace;
             font-size: 3em;
             font-weight: bold;
             animation: slideIn 2s ease-out; /* Shorter duration for faster appearance */
@@ -119,18 +156,19 @@ def main():
         }
 
         .sidebar {
-            width: 70%;
+            width: 90%;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+            background: #59D5E0; /* Slightly transparent white background */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: absolute;
+            position: fixed;
             margin-right:-12rem;
             right:40px;
             top: 10px;
             bottom: 10px;
-            color: black;
+            color: black !important;
             overflow: auto; /* Ensure content does not overflow */
+            
         }
         </style>
         """, unsafe_allow_html=True
